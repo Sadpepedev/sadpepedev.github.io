@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2a2a72, #009ffd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.countdown {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: #009ffd;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
