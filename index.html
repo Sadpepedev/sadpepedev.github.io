@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
+      background-color: #ffbe33;
       margin: 0;
       padding: 20px;
     }
@@ -60,15 +60,15 @@
 </head>
 <body>
   <div class="container">
-    <h1>Derive X Ether.fi Event</h1>
-    <label for="airdropPercentage">Total Airdrop Allocation (%)</label>
-    <input type="number" id="airdropPercentage" placeholder="Enter allocation percentage (e.g., 5, 7, 10)" />
+    <h1>Derive X Etherfi Event</h1>
+    <label for="airdropPercentage">Total Airdrop Allocation (The community average is around 7.5% historically)</label>
+    <input type="number" id="airdropPercentage" placeholder="Enter allocation of total supply as a percentage (e.g 7.5%)" />
 
-    <label for="fdv">Fully Diluted Valuation (FDV in $)</label>
-    <input type="number" id="fdv" placeholder="Enter FDV (e.g., 135000000, 450000000)" />
+    <label for="fdv">Fully Diluted Valuation of Derive(FDV in $)</label>
+    <input type="number" id="fdv" placeholder="Enter FDV (Lyra was 135,000,000)" />
 
-    <label for="participants">Number of Event Participants</label>
-    <input type="number" id="participants" placeholder="Enter the number of participants (e.g., 1000)" />
+    <label for="participants">Number of Event Participants (This is currently capped at 1000 users for this event) </label>
+    <input type="number" id="participants" placeholder="Enter the number of participants (This event is capped at 1000)" />
 
     <button onclick="calculate()">Calculate</button>
 
